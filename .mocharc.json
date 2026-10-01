@@ -1,0 +1,6 @@
+{
+  "spec": "test/**/*.test.js",
+  "require": ["./src/config/loadEnv.js", "./test/setup/root.hooks.js"],
+  "timeout": 15000,
+  "exit": true
+}
